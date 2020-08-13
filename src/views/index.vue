@@ -5,12 +5,18 @@
     </div>
 </template>
 <script>
+import storage  from '../storage/index'
 export default {
     name:"index",
     data() {
       return{}
     },
-    methods:{}
+    methods:{},
+    mounted(){
+     storage.setItem('name','小红')
+    }
+    
+
 }
 </script>
 <style lang='scss' scoped>
