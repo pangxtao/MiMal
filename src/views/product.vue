@@ -1,16 +1,16 @@
 <!--产品页面-->
 <template>
-    <div>
-        product
-    </div>
+  <div>
+    product
+  </div>
 </template>
 <script>
 export default {
-    name:'product',
-    data() {
-      return{}
-    },
-    methods:{}
+  name: 'Product',
+  data() {
+    return {}
+  },
+  methods: {}
 }
 </script>
 <style lang='scss' scoped>

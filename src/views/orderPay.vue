@@ -1,16 +1,14 @@
 <!--orderPay-->
 <template>
-    <div>
-      
-    </div>
+  <div />
 </template>
 <script>
 export default {
-    name:'order-pay',
-    data() {
-      return{}
-    },
-    methods:{}
+  name: 'OrderPay',
+  data() {
+    return {}
+  },
+  methods: {}
 }
 </script>
 <style lang='scss' scoped>
